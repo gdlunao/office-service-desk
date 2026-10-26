@@ -1,0 +1,37 @@
+.incident-history {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #dbe3ec;
+}
+
+.incident-history h3 {
+  margin: 0 0 0.5rem;
+}
+
+.incident-history-list {
+  margin: 1.25rem 0;
+  padding-left: 1.75rem;
+}
+
+.incident-history-item {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #dbe3ec;
+  border-radius: 0.75rem;
+  background-color: #f8fafc;
+}
+
+.incident-history-item p {
+  margin: 0.5rem 0 0;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.incident-history-meta {
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.incident-history-details {
+  white-space: pre-wrap;
+}

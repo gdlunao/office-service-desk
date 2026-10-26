@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Backend 
+/backend/storage/

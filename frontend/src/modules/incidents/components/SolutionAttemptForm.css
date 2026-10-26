@@ -1,0 +1,118 @@
+.solution-attempt-form {
+  width: 100%;
+  max-width: 56rem;
+  margin-top: 1.25rem;
+}
+
+.solution-attempt-form fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px solid #dbe3ed;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.solution-attempt-form legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+.solution-attempt-form label {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.solution-attempt-form-help {
+  margin: 0 0 0.75rem;
+  color: #526174;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.solution-attempt-form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 8rem;
+  padding: 0.85rem;
+  border: 1px solid #aebdce;
+  border-radius: 8px;
+  background: #fff;
+  color: #172b4d;
+  font: inherit;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.solution-attempt-form textarea:focus-visible {
+  outline: 3px solid #b7d4fa;
+  outline-offset: 2px;
+  border-color: #275f9a;
+}
+
+.solution-attempt-form-counter {
+  margin: 0.5rem 0 1rem;
+  color: #526174;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.solution-attempt-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.solution-attempt-form-success {
+  padding: 0.85rem 1rem;
+  border: 1px solid #a9d9bc;
+  border-radius: 8px;
+  background: #edf8f1;
+  color: #17603a;
+  line-height: 1.6;
+}
+
+.solution-attempt-form fieldset:disabled textarea {
+  background: #f3f5f8;
+}
+
+@media (max-width: 600px) {
+  .solution-attempt-form fieldset {
+    padding: 1rem;
+  }
+
+  .solution-attempt-form-actions button {
+    width: 100%;
+  }
+}
+
+.solution-attempt-form select {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  padding: 0.8rem;
+  border: 1px solid #aebdce;
+  border-radius: 8px;
+  background: #fff;
+  color: #172b4d;
+  font: inherit;
+}
+
+.solution-attempt-form select:focus-visible {
+  outline: 3px solid #b7d4fa;
+  outline-offset: 2px;
+  border-color: #275f9a;
+}
+
+.solution-attempt-form textarea + label {
+  margin-top: 1.5rem;
+}
+
+.solution-attempt-form textarea + .solution-attempt-form-help {
+  margin-top: 1rem;
+}

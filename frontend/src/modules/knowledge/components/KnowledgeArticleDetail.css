@@ -1,0 +1,41 @@
+.knowledge-article-detail {
+  margin-top: 2rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid #dbe3ed;
+  border-radius: 12px;
+  background: #f8fafc;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-article-detail .section-heading {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.knowledge-article-title {
+  margin: 1.5rem 0 0.75rem;
+  line-height: 1.4;
+}
+
+.knowledge-article-sections {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.knowledge-article-sections > section {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.knowledge-article-sections h3 {
+  margin: 0 0 0.75rem;
+}
+
+.knowledge-article-sections p {
+  margin: 0;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}

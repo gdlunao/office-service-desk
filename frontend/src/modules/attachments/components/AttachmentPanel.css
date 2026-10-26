@@ -1,0 +1,109 @@
+.attachment-panel {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d5dfeb;
+}
+
+.attachment-panel h3 {
+  margin: 0 0 0.75rem;
+}
+
+.attachment-panel p {
+  line-height: 1.65;
+}
+
+.attachment-list {
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.attachment-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid #d5dfeb;
+  border-radius: 10px;
+}
+
+.attachment-information {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.attachment-item button {
+  flex-shrink: 0;
+  width: auto;
+  min-height: 44px;
+}
+
+@media (max-width: 600px) {
+  .attachment-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .attachment-item button {
+    width: 100%;
+  }
+}
+
+.attachment-upload-form {
+  max-width: 56rem;
+  margin: 1.5rem 0;
+}
+
+.attachment-upload-form fieldset {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px solid #d5dfeb;
+  border-radius: 10px;
+}
+
+.attachment-upload-form legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+.attachment-upload-form label {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.attachment-upload-form input[type='file'] {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 0.75rem;
+  font: inherit;
+}
+
+.attachment-upload-form p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.attachment-upload-form button {
+  justify-self: start;
+  width: auto;
+  min-height: 44px;
+  padding: 0.75rem 1.25rem;
+}
+
+@media (max-width: 600px) {
+  .attachment-upload-form button {
+    justify-self: stretch;
+    width: 100%;
+  }
+}

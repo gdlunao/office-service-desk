@@ -1,0 +1,157 @@
+.report-filters {
+  margin: 1.5rem 0;
+}
+
+.report-filters fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px solid #dbe3ed;
+  border-radius: 10px;
+}
+
+.report-filters legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+.report-filter-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 240px));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.report-filter-fields label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.report-filter-fields input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 0.75rem;
+  border: 1px solid #aebdce;
+  border-radius: 8px;
+  background: #fff;
+  color: #172b4d;
+  font: inherit;
+}
+
+.report-filter-fields input:focus-visible {
+  outline: 3px solid #b7d4fa;
+  outline-offset: 2px;
+}
+
+.report-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.report-summary {
+  margin: 1.5rem 0;
+  line-height: 1.7;
+}
+
+.report-summary p {
+  margin: 0.5rem 0;
+}
+
+.report-indicators-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(100%, 260px), 1fr)
+  );
+  gap: 1.25rem;
+}
+
+.report-indicator-card {
+  min-width: 0;
+  padding: 1.5rem;
+  border: 1px solid #dbe3ed;
+  border-top: 4px solid #275f9a;
+  border-radius: 10px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+
+.report-indicator-card h2 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.report-indicator-value {
+  margin: 1rem 0;
+  color: #17477b;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.report-indicator-description {
+  margin: 0 0 1.25rem;
+  color: #526174;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.report-indicator-counts {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid #e4eaf2;
+}
+
+.report-indicator-counts > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.report-indicator-counts dt {
+  color: #526174;
+}
+
+.report-indicator-counts dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.report-explanation {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid #dbe3ed;
+  border-radius: 10px;
+  background: #f5f8fc;
+}
+
+.report-explanation h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.report-explanation p {
+  margin: 0.75rem 0 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .report-filter-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .report-filter-actions button {
+    width: 100%;
+  }
+
+  .report-indicator-card {
+    padding: 1rem;
+  }
+}

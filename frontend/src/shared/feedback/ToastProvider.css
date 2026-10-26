@@ -1,0 +1,83 @@
+.app-toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: min(25rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+  pointer-events: none;
+}
+
+.app-toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid;
+  border-left-width: 5px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 16%);
+  pointer-events: auto;
+}
+
+.app-toast--success {
+  color: #14532d;
+  background: #f0fdf4;
+  border-color: #15803d;
+}
+
+.app-toast--error {
+  color: #7f1d1d;
+  background: #fef2f2;
+  border-color: #b91c1c;
+}
+
+.app-toast--info {
+  color: #1e3a8a;
+  background: #eff6ff;
+  border-color: #1d4ed8;
+}
+
+.app-toast-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.app-toast-content strong {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.app-toast-content p {
+  margin: 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.app-toast-close {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.app-toast-close:hover {
+  background: rgb(0 0 0 / 8%);
+}
+
+.app-toast-close:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}

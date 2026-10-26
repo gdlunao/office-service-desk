@@ -1,0 +1,46 @@
+.knowledge-recommendations-panel {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d8e1ec;
+}
+
+.knowledge-recommendations-list {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.knowledge-recommendation-card {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid #d8e1ec;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.knowledge-recommendation-card h4 {
+  margin: 0 0 0.75rem;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-recommendation-summary {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-recommendation-card .page-description {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.knowledge-recommendation-card button {
+  margin-top: 0.5rem;
+}
+
+.knowledge-recommendation-detail {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,43 @@
+.knowledge-draft-form {
+  margin-top: 1.5rem;
+}
+
+.knowledge-draft-form fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.knowledge-draft-form legend {
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.knowledge-draft-field {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.knowledge-draft-field label {
+  font-weight: 600;
+}
+
+.knowledge-draft-field input,
+.knowledge-draft-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #b8c6d8;
+  border-radius: 8px;
+  font: inherit;
+  line-height: 1.6;
+  color: inherit;
+  background: #fff;
+}
+
+.knowledge-draft-field textarea {
+  resize: vertical;
+}
